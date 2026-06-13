@@ -1,0 +1,19 @@
+# Python dependencies for the feature-extraction and analysis pipeline.
+# Versions are intentionally unpinned in this scaffold; pin from a captured
+# environment (pip freeze / environment.yml) before release.
+#
+# NOTE: The cross-classified mixed model is NOT fit in Python. It is fit in R
+# with lme4::glmer. See code/README.md for the R step.
+
+pandas
+numpy
+scipy
+scikit-learn
+statsmodels
+spacy
+nltk
+transformers
+sentence-transformers
+gensim
+bertopic
+textblob

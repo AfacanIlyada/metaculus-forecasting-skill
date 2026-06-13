@@ -1,0 +1,23 @@
+# ---------------------------------------------------------------------------
+# RAW DATA — NEVER COMMIT
+# Raw Metaculus comment-text CSVs (comment bodies) must never be committed to
+# this repository. Raw text is not redistributable under Metaculus's terms of
+# use and for forecaster privacy. Only derived author-level features and
+# comment identifiers (not text) belong here. Available on request only.
+# ---------------------------------------------------------------------------
+data/raw/
+
+# Large / binary analysis artifacts
+*.pkl
+*.parquet
+
+# Secrets
+.env
+
+# Python
+__pycache__/
+.ipynb_checkpoints/
+
+# Logs and OS cruft
+*.log
+.DS_Store
